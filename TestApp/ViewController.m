@@ -25,5 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonTapped:(id)sender {
+    
+    [self.button setTitle:@"Done, thanks!" forState:UIControlStateNormal];
+    
+}
+
 
 @end
