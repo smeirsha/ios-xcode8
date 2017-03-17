@@ -212,7 +212,7 @@
 					};
 					4006C7D81DABC6D100294FE4 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = P3FDR2HY6W;
+						DevelopmentTeam = UBF8T346G9;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4006C7BF1DABC6D000294FE4;
 					};
@@ -451,7 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = P3FDR2HY6W;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = TestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.TestAppTests;
@@ -464,7 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = P3FDR2HY6W;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = TestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.TestAppTests;
