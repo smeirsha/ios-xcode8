@@ -218,8 +218,7 @@
 					};
 					4006C7E31DABC6D100294FE4 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 5Z97G9NZQ6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 4006C7BF1DABC6D000294FE4;
 					};
 				};
@@ -485,14 +484,14 @@
 		4006C7F41DABC6D100294FE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.TestAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "67211fad-7fde-4782-af3b-51f77b92d1bd";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Ad Hoc: *";
 				TEST_TARGET_NAME = TestApp;
 			};
 			name = Debug;
@@ -501,7 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.TestAppUITests;
