@@ -208,18 +208,18 @@
 					4006C7BF1DABC6D000294FE4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5Z97G9NZQ6;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					4006C7D81DABC6D100294FE4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5Z97G9NZQ6;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 4006C7BF1DABC6D000294FE4;
 					};
 					4006C7E31DABC6D100294FE4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5Z97G9NZQ6;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 4006C7BF1DABC6D000294FE4;
 					};
 				};
@@ -405,8 +405,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -438,8 +438,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meirav.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "50d1de44-723d-4165-82a1-0acd2a854b62";
-				PROVISIONING_PROFILE_SPECIFIER = "meirav Prov";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -453,8 +453,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meirav.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "50d1de44-723d-4165-82a1-0acd2a854b62";
-				PROVISIONING_PROFILE_SPECIFIER = "meirav Prov";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -476,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				INFOPLIST_FILE = TestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,14 +489,14 @@
 		4006C7F41DABC6D100294FE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.TestAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "67211fad-7fde-4782-af3b-51f77b92d1bd";
-				PROVISIONING_PROFILE_SPECIFIER = "XC Ad Hoc: *";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_TARGET_NAME = TestApp;
 			};
 			name = Debug;
